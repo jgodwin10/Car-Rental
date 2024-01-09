@@ -1,9 +1,15 @@
 import React from 'react'
+import Footer from "../Components/Footer"
+import BannerContact from '../Components/BannerContact'
+
+
+
 
 const Models = () => {
   return (
     <div>
-      MODELS
+      <BannerContact />
+      <Footer />
     </div>
   )
 }

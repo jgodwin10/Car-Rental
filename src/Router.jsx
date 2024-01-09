@@ -5,6 +5,7 @@ import Home from "./Pages/Home"
 import About from "./Pages/About"
 import Contact from "./Pages/Contact"
 import Models from "./Pages/Models"
+import Testimonials from "./Pages/Testimonials";
 
 
 const router = createBrowserRouter([
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: "/models",
         element: <Models />
+      },
+      {
+        path: "/testimonials",
+        element: <Testimonials />
       }
     ]
 

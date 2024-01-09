@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.show-nav {
+  transform: none;
+}
+
+body {
+  background-image: url(../src/images/hero/hero-bg.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-color: rgba(232, 229, 229, 0.484);
+  font-family: Poppins, sans-serif;
+}
+
+.show-faq {
+  background-color: #fe4d30;
+}
+
+.show {
+  display: flex;
+}
+
+@media (max-width:800px) {
+  body {
+    background-image: none;
+    background-color: rgba(232, 229, 229, 0.484);
+  font-family: Poppins, sans-serif;
+  }
+}

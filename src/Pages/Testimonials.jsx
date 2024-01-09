@@ -1,14 +1,16 @@
 import React from 'react'
 import Footer from '../Components/Footer'
 import BannerContact from '../Components/BannerContact'
+import Testimonial from '../Components/Testimonial'
 
-const Contact = () => {
+const Testimonials = () => {
   return (
     <div>
+      <Testimonial />
       <BannerContact />
       <Footer />
     </div>
   )
 }
 
-export default Contact
+export default Testimonials
