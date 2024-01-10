@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from "../Components/Footer"
 import BannerContact from '../Components/BannerContact'
+import HeroPages from '../Components/HeroPages'
 
 
 
@@ -8,6 +9,7 @@ import BannerContact from '../Components/BannerContact'
 const Models = () => {
   return (
     <div>
+      <HeroPages />
       <BannerContact />
       <Footer />
     </div>

@@ -6,22 +6,22 @@ import { IconMapPinFilled } from "@tabler/icons-react"
 
 
 
-const CarModel = ({ pickdate, dropdate, car, pick, drop, carUrl, handleModel}) => {
+const CarModel = ({ pickdate, dropdate, car, pick, drop, carUrl, handleModel, hanldeFormModel }) => {
 
   
   return (
     <div className='fixed overflow-hidden w-[100%] h-[100%] bg-[#00000037] top-0 right-0 z-[99999999999]'>
 
-    <div className='overflow-y-scroll h-[100vh] max-w-[800px]  bg-neutral-200 translate-y-8  mx-auto top-0 z-[99999999999999] pb-32'>
-      <h2 className='p-4 bg-[#fe4d30] flex justify-between font-extrabold text-[22px] text-white'>COMPLETE RESERVATION <IconX /> </h2>
+    <div className='overflow-y-scroll h-[100vh] max-w-[800px]  bg-neutral-200 md:translate-y-8   mx-auto top-0 z-[99999999999999] pb-32'>
+      <h2 className='p-4 bg-[#fe4d30] flex justify-between font-extrabold text-[22px] text-white'>COMPLETE RESERVATION <IconX onClick={hanldeFormModel}/> </h2>
 
 
       <div className='bg-[#fe4b302e] p-8'>
-        <h2 className='flex font-semibold text-xl text-[#fe4d30]'> 
-         <IconInfoCircleFilled className="mr-4" /> 
+        <h2 className='flex font-semibold md:text-xl text-lg text-[#fe4d30]'> 
+         <IconInfoCircleFilled  className="mr-4" /> 
          Upon completing this reservation enquiry, you will receive:
         </h2>
-        <p className='text-[19px] text-neutral-500 font-semibold pt-4'>Your rental voucher to produce on arrival at the rental desk and a toll-free customer support number.</p>
+        <p className='md:text-[19px] text-neutral-500 font-semibold pt-4'>Your rental voucher to produce on arrival at the rental desk and a toll-free customer support number.</p>
       </div>
 
       <div className='bg-white grid sm:grid-cols-2 grid-cols-1 text-center sm:text-left'>

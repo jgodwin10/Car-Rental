@@ -107,6 +107,10 @@ const Car = () => {
       const success = document.querySelector(".success");
     success.style.display = "flex"
   }
+
+  const hanldeFormModel = () => {
+    setCarModel(!carModel)
+  }
     
 
 
@@ -193,7 +197,7 @@ const Car = () => {
          </div>
       </div>
 
-      {carModel && <CarModel pickdate={pickdate} dropdate={dropdate} drop={drop} pick={pick} car={car} carUrl={carUrl} handleModel={handleModel} />}
+      {carModel && <CarModel pickdate={pickdate} dropdate={dropdate} drop={drop} pick={pick} car={car} carUrl={carUrl} handleModel={handleModel} hanldeFormModel={hanldeFormModel} />}
 
 
       

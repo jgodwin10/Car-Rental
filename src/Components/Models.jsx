@@ -37,7 +37,7 @@ const Models = () => {
 
   return (
   <div className='bg-white'>
-    <div className=" max-w-[1340px] mx-auto px-12 py-16"> 
+    <div className=" max-w-[1340px] mx-auto sm:px-12 px-8 py-16"> 
       <div className="text-center md:w-[500px] mx-auto">
         <h2 className="text-[23px] font-semibold">Vehicle Models</h2>
         <h1 className="text-[43px] font-bold">Our rental fleet</h1>

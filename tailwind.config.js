@@ -12,7 +12,8 @@ export default {
         'book': "url(./images/book-car/book-bg.png)",
         'choose': "url(./images/chooseUs/bg.png)",
         'faq': "url(./images/faq/car.png)",
-        'contact': "url(./images/banners/bg02.png)"
+        'contact': "url(./images/banners/bg02.png)",
+        'heroPages': "url(./images/hero/heroes-bg.png)"
       }
     },
   },

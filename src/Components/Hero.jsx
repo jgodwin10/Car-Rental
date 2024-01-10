@@ -9,7 +9,7 @@ const Hero = () => {
     <>
   
 
-      <div className="flex lg:bg-car bg-no-repeat bg-auto bg-right lg:justify-between justify-center items-center text-center lg:text-left h-[80vh] mx-auto max-w-[1340px] px-5 -py-8">
+      <div className="flex lg:bg-car bg-no-repeat bg-auto bg-right lg:justify-between justify-center items-center text-center lg:text-left sm:h-[80vh] mx-auto max-w-[1340px] px-5 sm:-py-8 py-10">
         <motion.div 
         initial={{x: '-100vw'}}
         animate={{x: 0}}
