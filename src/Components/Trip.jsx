@@ -1,4 +1,7 @@
 import React from "react";
+import trip1 from "/src/images/plan/trip1.png";
+import trip2 from "/src/images/plan/trip2.png";
+import trip3 from "/src/images/plan/trip3.png";
 
 const Trip = () => {
   return (
@@ -10,7 +13,7 @@ const Trip = () => {
 
       <div className="grid grid-cols-1 w-[75%] mx-auto md:grid-cols-2 lg:grid-cols-3 gap-x-32">
         <div className="flex flex-col items-center my-8">
-          <img src="src/images/plan/icon1.png" alt="" />
+          <img src={trip1} alt="" />
           <h2 className="font-bold text-[28px] text-center">Select Car</h2>
           <p className="text-center text-gray-400 font-medium">
             We offers a big range of vehicles for all your driving needs. We
@@ -19,7 +22,7 @@ const Trip = () => {
         </div>
 
         <div className="flex flex-col items-center my-8">
-          <img src="src/images/plan/icon2.png" alt="" />
+          <img src={trip2} alt="" />
           <h2 className=" text-center font-bold text-[28px]">
             Contact Operator
           </h2>
@@ -29,7 +32,7 @@ const Trip = () => {
           </p>
         </div>
         <div className="flex flex-col items-center lg:my-[55px] my-8">
-          <img src="src/images/plan/icon3.png" alt="" />
+          <img src={trip3} alt="" />
           <h2 className="text-center font-bold text-[28px]">Let's Drive</h2>
           <p className="text-center text-gray-400 font-medium">
             Whether you're hitting the open road, we've got you covered with our
