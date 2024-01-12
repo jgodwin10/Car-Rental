@@ -11,7 +11,7 @@ const ChooseUs = () => {
             <h2 className="font-bold text-[23px]">Why Choose Us</h2>
             <h1 className="font-bold text-[43px] py-4 ">Best valued deals you will ever find</h1>
             <p className="text-gray-400 font-medium">Discover the best deals you'll ever find with our unbeatable offers. we're dedicated to providing you with the best value for your money, so you can enjoy top-quality services and products without breaking the bank. Our deals are designed to give you the ultimate renting experience, so don't miss out on your chance to save big.</p>
-            <button className="bg-[#fe4d30] h-[60px] font-bold text-white text-lg w-[170px] mt-8 rounded-[3px] hover:text-[#fe4d30] transition duration-[0.3s] hover:bg-white hover:border hover:border-[#fe4d30] ">Find Details</button>
+            <button className="bg-[#fe4d30] h-[60px] font-bold text-white text-lg w-[170px] mt-8 rounded-[3px] hover:text-[#fe4d30] transition duration-[0.5s] hover:bg-white hover:border hover:border-[#fe4d30] ">Find Details</button>
            </div>
           </div>
 

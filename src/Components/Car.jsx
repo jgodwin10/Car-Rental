@@ -121,21 +121,35 @@ const Car = () => {
 
   return (
     <div className="mx-auto max-w-[1340px] pb-20">
-
       <div className="bg-white bg-book shadow-2xl rounded-[5px] mx-[25px] py-16 px-12">
-         <h1 className='font-extrabold text-[25px]'>Book a car</h1>
+        <h1 className="font-extrabold text-[25px]">Book a car</h1>
 
-         <p className='danger w-[99%] justify-between bg-red-200 py-3 rounded-lg px-4 mt-4 hidden'>All fields required <IconX /></p>
+        <p className="danger w-[99%] justify-between bg-red-200 py-3 rounded-lg px-4 mt-4 hidden">
+          All fields required <IconX />
+        </p>
 
-         <p className='success w-[99%] justify-between bg-green-200 py-3 rounded-lg px-4 mt-4 hidden'>Check your email to confirm an order.<IconX /></p>
+        <p className="success w-[99%] justify-between bg-green-200 py-3 rounded-lg px-4 mt-4 hidden">
+          Check your email to confirm an order.
+          <IconX />
+        </p>
 
-         <div className='grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-x-10 mr-4'>
+        <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-x-10 mr-4">
+          <div className="pt-8">
+            <label
+              className="flex items-center pb-2 font-semibold text-[16px]"
+              htmlFor="car"
+            >
+              <IconCar className="mr-2" /> Select Your Car Type
+              <span className="text-[#fe4d30] "> *</span>
+            </label>
 
-          <div className='pt-8'>
-            <label className='flex items-center pb-2 font-semibold text-[16px]' htmlFor="car"><IconCar className="mr-2" /> Select Your Car Type<span className='text-[#fe4d30] '> *</span></label>
-
-            <select className='border rounded-md py-3 w-[100%]  outline-none px-4 text-gray-400 font-medium' name="car" id="car" value={car} onChange={handleCar}>
-
+            <select
+              className="border rounded-md py-3 w-[100%]  outline-none px-4 text-gray-400 font-medium"
+              name="car"
+              id="car"
+              value={car}
+              onChange={handleCar}
+            >
               <option value="">Select Your Car Type </option>
               <option>Audi A1 S-Line</option>
               <option>VW Golf 6</option>
@@ -146,13 +160,25 @@ const Car = () => {
             </select>
           </div>
 
-          <div className='pt-8'> 
-            <label className='flex items-center pb-2 font-semibold text-[16px]' htmlFor="pick-up">
-              <IconMapPinFilled className="mr-2" />Pick-up <span className='text-[#fe4d30] '>*</span> 
+          <div className="pt-8">
+            <label
+              className="flex items-center pb-2 font-semibold text-[16px]"
+              htmlFor="pick-up"
+            >
+              <IconMapPinFilled className="mr-2" />
+              Pick-up <span className="text-[#fe4d30] ">*</span>
             </label>
 
-            <select className='border rounded-md py-3 w-[100%] outline-none px-4 text-gray-400 font-medium' name="pick-up" id="pick-up" value={pick} onChange={handlePick}>
-              <option value="Select pick up location">Select pick up location</option>
+            <select
+              className="border rounded-md py-3 w-[100%] outline-none px-4 text-gray-400 font-medium"
+              name="pick-up"
+              id="pick-up"
+              value={pick}
+              onChange={handlePick}
+            >
+              <option value="Select pick up location">
+                Select pick up location
+              </option>
               <option value="Lagos">Lagos</option>
               <option value="Abuja">Abuja</option>
               <option value="Benin">Benin</option>
@@ -161,13 +187,25 @@ const Car = () => {
             </select>
           </div>
 
-          <div className='pt-8'>
-            <label className='flex items-center pb-2 font-semibold text-[16px]' htmlFor="pick-up">
-              <IconMapPinFilled className="mr-2" />Drop-Off <span className='text-[#fe4d30] '>*</span> 
+          <div className="pt-8">
+            <label
+              className="flex items-center pb-2 font-semibold text-[16px]"
+              htmlFor="pick-up"
+            >
+              <IconMapPinFilled className="mr-2" />
+              Drop-Off <span className="text-[#fe4d30] ">*</span>
             </label>
 
-            <select className='border rounded-md py-3 w-[100%] px-4 outline-none text-gray-400 font-medium' name="drop-off" id="drop-off" value={drop} onChange={handleDrop}>
-              <option value="Select pick up location">Select drop off location</option>
+            <select
+              className="border rounded-md py-3 w-[100%] px-4 outline-none text-gray-400 font-medium"
+              name="drop-off"
+              id="drop-off"
+              value={drop}
+              onChange={handleDrop}
+            >
+              <option value="Select pick up location">
+                Select drop off location
+              </option>
               <option value="Lagos">Lagos</option>
               <option value="Abuja">Abuja</option>
               <option value="Benin">Benin</option>
@@ -176,33 +214,68 @@ const Car = () => {
             </select>
           </div>
 
-          <div className='pt-8'>
-            <label  className='flex items-center pb-2 font-semibold text-[16px]' htmlFor="pick-up-date">
-              <IconCalendarEvent className="mr-2" /> Pick-up Date <span className='text-[#fe4d30] '>*</span>
+          <div className="pt-8">
+            <label
+              className="flex items-center pb-2 font-semibold text-[16px]"
+              htmlFor="pick-up-date"
+            >
+              <IconCalendarEvent className="mr-2" /> Pick-up Date{" "}
+              <span className="text-[#fe4d30] ">*</span>
             </label>
-            <input className='border rounded-md py-3 w-[100%] px-4 outline-none text-gray-400 font-medium' type="date" name="date" id="date" value={pickdate} onChange={handlePickDate} />
+            <input
+              className="border rounded-md py-3 w-[100%] px-4 outline-none text-gray-400 font-medium"
+              type="date"
+              name="date"
+              id="date"
+              value={pickdate}
+              onChange={handlePickDate}
+            />
           </div>
 
-          <div className='pt-8'>
-            <label className='flex items-center pb-2 font-semibold text-[16px]' htmlFor="pick-up-date">
-              <IconCalendarEvent className="mr-2" /> Drop-off Date <span className='text-[#fe4d30] '>*</span>
+          <div className="pt-8">
+            <label
+              className="flex items-center pb-2 font-semibold text-[16px]"
+              htmlFor="pick-up-date"
+            >
+              <IconCalendarEvent className="mr-2" /> Drop-off Date{" "}
+              <span className="text-[#fe4d30] ">*</span>
             </label>
-            <input className='flex justify-between border rounded-md py-3 w-[100%] px-4 outline-none text-gray-400 font-medium cursor-pointer' type="date" name="date" id="date" value={dropdate} onChange={handleDropdate} />
+            <input
+              className="flex justify-between border rounded-md py-3 w-[100%] px-4 outline-none text-gray-400 font-medium cursor-pointer"
+              type="date"
+              name="date"
+              id="date"
+              value={dropdate}
+              onChange={handleDropdate}
+            />
           </div>
 
-          <div className='pt-16'>
-          <button onClick={handleForm} className='w-[100%] text-[18px] font-semibold py-3 text-white bg-[#fe4d30] rounded-md' type='submit'>Submit</button>
+          <div className="pt-16">
+            <button
+              onClick={handleForm}
+              className="w-[100%] text-[18px] font-semibold py-3 text-white hover:text-[#fe4d30] transition duration-[0.5s] hover:bg-white hover:border hover:border-[#fe4d30] bg-[#fe4d30] rounded-md"
+              type="submit"
+            >
+              Submit
+            </button>
           </div>
-
-         </div>
+        </div>
       </div>
 
-      {carModel && <CarModel pickdate={pickdate} dropdate={dropdate} drop={drop} pick={pick} car={car} carUrl={carUrl} handleModel={handleModel} hanldeFormModel={hanldeFormModel} />}
-
-
-      
+      {carModel && (
+        <CarModel
+          pickdate={pickdate}
+          dropdate={dropdate}
+          drop={drop}
+          pick={pick}
+          car={car}
+          carUrl={carUrl}
+          handleModel={handleModel}
+          hanldeFormModel={hanldeFormModel}
+        />
+      )}
     </div>
-  )
+  );
 }
 
 export default Car

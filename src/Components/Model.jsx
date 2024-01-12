@@ -9,11 +9,11 @@ const Model = ({model, mark, year, doors, air, transmission, fuel, img, price}) 
     <div className='flex justify-between lg:justify-around md:flex-row items-center flex-col lg:w-[80%] '>
        
        
-        <img className=' text-center  md:max-w-[500px] w-[100%] bg-black ' src={img} alt={model} />
+        <img className=' text-center  md:max-w-[400px] w-[100%] bg-black ' src={img} alt={model} />
        
       
       
-        <table className='border-2 border-black mt-10 md:mt-0 flex flex-col items-center'>
+        <table className='border-2 border-black mt-10 md:mt-0 flex flex-col items-center min-w-[00px]'>
           <tr className='text-white'>
           <p className='py-2 text-[20px] bg-[#fe4d30] px-7'><span className='text-[26px] font-extrabold'>${price}</span> {" "} <span className='text-[26px]'>/</span> rent per day</p>
           </tr>
