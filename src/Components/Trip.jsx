@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const Trip = () => {
   return (
@@ -12,22 +12,33 @@ const Trip = () => {
         <div className="flex flex-col items-center my-8">
           <img src="src/images/plan/icon1.png" alt="" />
           <h2 className="font-bold text-[28px] text-center">Select Car</h2>
-          <p className="text-center text-gray-400 font-medium">We offers a big range of vehicles for all your driving needs. We have the perfect car to meet your needs</p>
+          <p className="text-center text-gray-400 font-medium">
+            We offers a big range of vehicles for all your driving needs. We
+            have the perfect car to meet your needs
+          </p>
         </div>
 
         <div className="flex flex-col items-center my-8">
           <img src="src/images/plan/icon2.png" alt="" />
-          <h2 className=" text-center font-bold text-[28px]">Contact Operator</h2>
-          <p className="text-center text-gray-400 font-medium">Our knowledgeable and friendly operators are always ready to help with any questions or concerns</p>
+          <h2 className=" text-center font-bold text-[28px]">
+            Contact Operator
+          </h2>
+          <p className="text-center text-gray-400 font-medium">
+            Our knowledgeable and friendly operators are always ready to help
+            with any questions or concerns
+          </p>
         </div>
         <div className="flex flex-col items-center lg:my-[55px] my-8">
           <img src="src/images/plan/icon3.png" alt="" />
           <h2 className="text-center font-bold text-[28px]">Let's Drive</h2>
-          <p className="text-center text-gray-400 font-medium">Whether you're hitting the open road, we've got you covered with our wide range of cars</p>
+          <p className="text-center text-gray-400 font-medium">
+            Whether you're hitting the open road, we've got you covered with our
+            wide range of cars
+          </p>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Trip
+export default Trip;
