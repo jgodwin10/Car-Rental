@@ -9,8 +9,8 @@ const Contact = () => {
   return (
     <div>
       <HeroPages title="Contact" />
-      <div className="grid lg:grid-cols-2 max-w-[1310px] mx-auto px-8 py-32 gap-x-8">
-        <div className="text-center mx-auto lg:mx-0 lg:text-left max-w-[400px]">
+      <div className="sm:grid lg:grid-cols-2 px-4 lg:max-w-[1310px] sm:mx-auto lg:px-8 py-32 lg:gap-x-8">
+        <div className="text-center sm:mx-auto lg:mx-0 lg:text-left lg:max-w-[400px]">
           <h1 className="text-4xl font-extrabold">
             Need additional information?
           </h1>
