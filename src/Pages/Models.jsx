@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "../Components/Footer";
 import BannerContact from "../Components/BannerContact";
 import ModelPages from "../Components/ModelPages";
-import { CAR_DATA } from "/src/carData";
+import { CAR_DATA } from "/src/carData.js";
 import HeroPages from "../Components/HeroPages";
 
 const Models = () => {
