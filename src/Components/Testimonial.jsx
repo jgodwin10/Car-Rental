@@ -1,5 +1,7 @@
 import React from 'react'
-import {motion} from "framer-motion"
+import { motion } from "framer-motion"
+import Icon1 from "/src/images/testimonials/pfp1.jpg";
+import Icon2 from "/src/images/testimonials/pfp2.jpg";
 
 const Testimonial = () => {
   return (
@@ -16,7 +18,7 @@ const Testimonial = () => {
       <div className="bg-[rgb(255,255,255)] shadow-lg rounded-md col-span-1">
         <p className="pt-12 px-10 text-[23px] text-left font-semibold">"We rented a car from this website and had an amazing experience! The booking was easy and the rental rates were very affordable."</p>
         <div className="flex justify-start items-center p-8 pb-12">
-          <img width={70} className="rounded-full" src="src/images/testimonials/pfp1.jpg" alt="" />
+          <img width={70} className="rounded-full" src={Icon1} alt="" />
           <div className="text-left pl-4">
           <h3 className="font-bold text-[20px]">Parry Hotter</h3>
           <p className="font-medium">Belgrade</p>
@@ -27,7 +29,7 @@ const Testimonial = () => {
       <div className="bg-white shadow-lg rounded-md ">
         <p className="pt-12 px-10 text-[25px] text-left font-semibold">"The car was in great condition and made our trip even better. Highly recommend for this car rental website"</p>
         <div className="flex justify-start items-center p-8 pb-12">
-          <img width={60} className="rounded-full" src="src/images/testimonials/pfp2.jpg" alt="" />
+          <img width={60} className="rounded-full" src={Icon2} alt="" />
           <div className="text-left pl-4">
           <h3 className="font-bold text-[20px]">Ron Rizzly</h3>
           <p>Novi Sad</p>

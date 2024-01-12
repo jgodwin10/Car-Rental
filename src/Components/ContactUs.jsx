@@ -1,4 +1,6 @@
 import React from 'react'
+import Icon1 from "/src/images/download/googleapp.svg";
+import Icon2 from "/src/images/download/appstore.svg";
 
 const ContactUs = () => {
   return (
@@ -10,8 +12,8 @@ const ContactUs = () => {
         <p className="text-gray-400 font-medium pb-8">Thrown shy denote ten ladies though ask saw. Or by to he going think order event music. Incommode so intention defective at convinced. Led income months itself and houses you.</p>
         <div className="max-w-[430px] flex justify-between mx-auto lg:mx-0 flex-col items-center h-[140px] sm:h-auto md:items-start sm:flex-row">
 
-        <img className="cursor-pointer" src="src/images/download/googleapp.svg" width={200} alt="" />
-        <img className="cursor-pointer" src="src/images/download/appstore.svg" width={200}  alt="" />
+        <img className="cursor-pointer" src={Icon1} width={200} alt="" />
+        <img className="cursor-pointer" src={Icon2} width={200}  alt="" />
         </div>
      </div>
   </div>

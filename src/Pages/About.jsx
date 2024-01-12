@@ -3,6 +3,12 @@ import Footer from "../Components/Footer";
 import BannerContact from "../Components/BannerContact";
 import Trip from "../Components/Trip";
 import HeroPages from "../Components/HeroPages";
+import MainImg from "/src/images/about/about-main.jpg" 
+import Icon1 from "/src/images/about/icon1.png"
+import Icon2 from "/src/images/about/icon2.png"
+import Icon3 from "/src/images/about/icon3.png"
+
+
 
 const About = () => {
   return (
@@ -10,7 +16,7 @@ const About = () => {
       <HeroPages title="About" />
       <div className="flex pt-24 flex-col justify-center lg:grid lg:grid-cols-2 gap-x-12 max-w-[520px] lg:max-w-[1000px] mx-auto p-8">
         <div>
-          <img src="src/images/about/about-main.jpg" alt="" />
+          <img src={MainImg} alt="" />
         </div>
         <div className="lg:-mt-28 py-16 text-center lg:text-left">
           <h2 className="font-semibold text-2xl line-1">About Company</h2>
@@ -28,7 +34,7 @@ const About = () => {
             <div>
               <img
                 className="mx-auto sm:mx-0"
-                src="src/images/about/icon1.png"
+                src={Icon1}
                 alt=""
               />
 
@@ -41,7 +47,7 @@ const About = () => {
             <div>
               <img
                 className="mx-auto sm:mx-0"
-                src="src/images/about/icon2.png"
+                src={Icon2}
                 alt=""
               />
 
@@ -53,7 +59,7 @@ const About = () => {
             <div>
               <img
                 className="mx-auto sm:mx-0"
-                src="src/images/about/icon3.png"
+                src={Icon3}
                 alt=""
               />
 

@@ -1,10 +1,15 @@
 import React from 'react'
+import Choose from "/src/images/chooseUs/main.png"
+import Icon1 from "/src/images/chooseUs/icon1.png"
+import Icon2 from "/src/images/chooseUs/icon2.png"
+import Icon3 from "/src/images/chooseUs/icon3.png"
+
 
 const ChooseUs = () => {
   return (
     <div className="bg-white bg-choose bg-auto bg-left-bottom bg-no-repeat py-32">
       <div className="max-w-[1150px] mx-auto lg:px-12 grid grid-cols-1 lg:gap-x-32 gap-x-0 gap-y-12 lg:grid-cols-2">
-        <img className="mx-auto col-span-2" src="src/images/chooseUs/main.png" alt="" />
+        <img className="mx-auto col-span-2" src={Choose} alt="" />
 
         <div>
            <div className="text-center lg:text-left lg:w-auto w-[70%] mx-auto">
@@ -18,7 +23,7 @@ const ChooseUs = () => {
            <div className="col-span-2 lg:col-span-1 lg:w-auto w-[100%] sm:w-[60%] mx-auto">
 
             <div className="flex items-center lg:justify-between justify-center lg:flex-row sm:flex-row sm:text-left flex-col text-center ">
-              <img src="src/images/chooseUs/icon1.png" alt="" />
+              <img src={Icon1} alt="" />
               <div className="px-4">
                 <h2 className="text-[25px] font-extrabold py-4">Cross Country Drive</h2>
                 <p className="text-gray-400 font-medium">Take your driving experience to the next level with our top-notch vehicles for your cross-country adventures.</p>
@@ -26,7 +31,7 @@ const ChooseUs = () => {
             </div>
 
             <div className="flex items-center lg:justify-between justify-center lg:flex-row sm:flex-row sm:text-left flex-col text-center py-10 ">
-              <img src="src/images/chooseUs/icon2.png" alt="" />
+              <img src={Icon2} alt="" />
               <div className="px-4">
                 <h2 className="text-[25px] font-extrabold py-4">All Inclusive Pricing</h2>
                 <p className="text-gray-400 font-medium">Get everything you need in one convenient, transparent price with our all-inclusive pricing policy.</p>
@@ -34,7 +39,7 @@ const ChooseUs = () => {
             </div>
 
             <div className="flex items-center lg:justify-between justify-center lg:flex-row sm:flex-row sm:text-left flex-col text-center ">
-              <img src="src/images/chooseUs/icon3.png" alt="" />
+              <img src={Icon3} alt="" />
               <div className="px-4">
                 <h2 className="text-[25px] font-extrabold py-4">No Hidden Charges</h2>
                 <p className="text-gray-400 font-medium">Enjoy peace of mind with our no hidden charges policy. We believe in transparent and honest pricing.</p>
