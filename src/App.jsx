@@ -2,7 +2,6 @@ import { useState } from 'react'
 import React from 'react';
 import { Route, Routes } from "react-router-dom";
 import Navbar from './Components/Navbar';
-import "./App.css"
 import Home from "./Pages/Home"
 import About from './Pages/About';
 import Contact from './Pages/Contact';
