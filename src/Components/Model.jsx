@@ -18,31 +18,31 @@ const Model = ({model, mark, year, doors, air, transmission, fuel, img, price}) 
           <p className='py-2 text-[20px] bg-[#fe4d30] px-7'><span className='text-[26px] font-extrabold'>${price}</span> {" "} <span className='text-[26px]'>/</span> rent per day</p>
           </tr>
           <tr  className='flex justify-around w-[100%] py-2'>
-            <td>Model</td>
+            <td className='font-extrabold'>Model</td>
             <td>{model}</td>
           </tr>
           <tr className='flex border-y-2  border-black justify-around w-[100%] py-2'>
-            <td>mark</td>
+            <td className='font-extrabold'>mark</td>
             <td> {mark}  </td>
           </tr>
           <tr className='flex border-b-2  border-black  justify-around w-[100%] py-2'>
-            <td>Year</td>
+            <td className='font-extrabold'>Year</td>
             <td> {year} </td>
           </tr>
           <tr className='flex border-b-2  border-black justify-around w-[100%] py-2'>
-            <td>Doors</td>
+            <td className='font-extrabold'>Doors</td>
             <td>{doors}</td>
           </tr>
           <tr className='flex border-b-2  border-black justify-around w-[100%] py-2'>
-            <td>AC</td>
+            <td className='font-extrabold'>AC</td>
             <td>Yes</td>
           </tr>
           <tr className='flex border-b-2  border-black justify-around w-[100%] py-2'>
-            <td>Transmission</td>
+            <td className='font-extrabold'>Transmission</td>
             <td> {transmission} </td>
           </tr>
           <tr className='flex justify-around w-[100%] py-2'>
-            <td>Fuel</td>
+            <td className='font-extrabold'>Fuel</td>
             <td> {fuel} </td>
           </tr>
         </table>
